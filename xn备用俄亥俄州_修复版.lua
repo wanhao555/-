@@ -1632,10 +1632,10 @@ end)
 
 local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/gycgchgyfytdttr/shenqin/refs/heads/main/ui.lua"))()
     local Window = WindUI:CreateWindow({
-        Title = 'Frost HUB',
+        Title = 'XN HUB',
         Icon = "crown",
         IconThemed = true,
-        Author = "by SQ",
+        Author = "by 大司马",
         Folder = "CloudHub",
         Size = UDim2.fromOffset(300, 200),
         Transparent = true,
