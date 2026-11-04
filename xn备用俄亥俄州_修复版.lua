@@ -1689,7 +1689,7 @@ Window:Tag({
     IconShape = "Square"
 })
 Window:EditOpenButton({
-    Title = "XN HUB",
+    Title = "XNHUB",
     Icon = "gem",
     CornerRadius = UDim.new(0, 16), 
     Size = UDim2.new(0, 140, 0, 48), 
