@@ -1277,7 +1277,7 @@ local Window = WindUI:CreateWindow({
 })
 
 Window:Tag({
-    Title = "刀刃球",
+    Title = "urban",
     Icon = "skull",
     IconColor = Color3.fromHex("#FF1493"),
     Color = Color3.fromHex("#1C1C1C"),
