@@ -1246,10 +1246,10 @@ LP.CharacterRemoving:Connect(function()
 end)
 
 local Window = WindUI:CreateWindow({
-    Title = 'Frost HUB | 刀刃球',
+    Title = 'XNHUB | urban',
     Icon = "crown",
     IconThemed = true,
-    Author = "by SQ",
+    Author = "by 大司马",
     Folder = "CloudHub",
     Size = UDim2.fromOffset(320, 420),
     Transparent = true,
@@ -1262,7 +1262,7 @@ local Window = WindUI:CreateWindow({
     User = {
         Enabled = true,
         Callback = function()
-            WindUI:Notify({Title = "Frost HUB", Content = "刀刃球整合版已加载", Duration = 2, Icon = "check"})
+            WindUI:Notify({Title = "XNHUB", Content = "urban已加载", Duration = 2, Icon = "check"})
         end,
         Anonymous = false
     },
@@ -1287,7 +1287,7 @@ Window:Tag({
 })
 
 Window:EditOpenButton({
-    Title = "Frost HUB",
+    Title = "XNHUB",
     Icon = "gem",
     CornerRadius = UDim.new(0, 16),
     Size = UDim2.new(0, 140, 0, 48),
@@ -1584,8 +1584,8 @@ local TabSettings = Window:Tab({ Title = "设置", Icon = "settings" })
 TabSettings:Section({ Title = "关于" })
 
 TabSettings:Paragraph({
-    Title = "Frost HUB | 刀刃球整合版",
-    Desc = "基于 WindUI + Netrix 核心功能\n\n功能：自瞄 / 静默瞄准 / ESP透视 / 加速 / 飞行 / 穿墙 / NPC自瞄 / 无限耐力 / 无扩散 / 大头模式"
+    Title = "XNHUB",
+    Desc = "urban"
 })
 
 TabSettings:Button({
